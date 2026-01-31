@@ -6,7 +6,7 @@ try:
   b = float(input("Inserisci il secondo valore => "))
 
 except ValueError:
-  print("Errore: devi inserire solo numeri!\n")
+  print("\nErrore: devi inserire solo numeri!")
 
 else:
-  print(f"Il risultato è {a * b}")
+  print(f"\nIl risultato è {a * b}")

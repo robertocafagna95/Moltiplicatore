@@ -5,7 +5,7 @@ try:
   a = float(input("Inserisci il primo valore => "))
   b = float(input("Inserisci il secondo valore => "))
 
-except ValueError:
+except:
   print("\nErrore: devi inserire solo numeri!")
 
 else:

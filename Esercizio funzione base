@@ -1,0 +1,11 @@
+def order (company,model,extra = False):
+  print("Ordine veicolo \nDettagli: ")
+  print(f"Produttore: {company}")
+  print(f"Modello: {model}")
+  if extra:
+    print("Veicolo con accessori")
+  else:
+    print("Veicolo con pacchetto base")
+
+
+order("Tesla","Cybertruck", extra = True
